@@ -6,7 +6,7 @@ export default function Menu({ visible, onOverlayClick }) {
         return null;
     }
     return (
-        <div className="fixed w-screen h-full min-w-450p top-14 md:top-24 left-0 text-base font-medium">
+        <div className="fixed w-screen h-full top-14 md:top-24 left-0 text-base font-medium">
             <div className="p-8 bg-finished">
                 <ul className="space-y-9 ">
                     <li>Home</li>
