@@ -5,7 +5,7 @@ import { Comment } from "./Comment";
 export const WhatUsersSay = () => {
 
     return (
-        <div className="flex flex-col items-center w-full bg-finished px-4 py-11">
+        <div className="flex flex-col items-center w-full bg-finished px-4 py-11 mt-24">
             <Title className="text-32 mb-6">What Path Users Say</Title>
             <div className="pb-6 md:flex md:items-center">
                 <img src={image} alt="What Users Say" className="mb-6 md:mr-5" />
