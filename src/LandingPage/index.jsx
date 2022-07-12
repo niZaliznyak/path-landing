@@ -5,7 +5,7 @@ import { WhyCard } from "./components/WhyCard";
 
 function LandingPage() {
   return (
-    <div className="flex flex-col min-w-450p max-w-6xl items-center space-y-20">
+    <div className="flex flex-col min-w-450p max-w-6xl items-center space-y-20 pt-14">
       <IntroCard/>
       <WhyCard />
       <WhatWeDo />
