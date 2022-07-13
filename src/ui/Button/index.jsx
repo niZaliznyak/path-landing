@@ -19,7 +19,7 @@ export const Button = (
             "w-full font-medium text-sm w-32 h-12 flex justify-center items-center rounded",
             {
                 "text-white bg-primary hover:bg-sky-500": isPrimary,
-                "bg-white hover:bg-slate-200": isLight
+                "text-primary bg-white hover:bg-slate-200": isLight
             },
             className
         );
